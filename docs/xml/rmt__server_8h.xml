@@ -1,0 +1,904 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="rmt__server_8h" kind="file" language="C++">
+    <compoundname>rmt_server.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>server/rmt_server.h</label>
+        <link refid="rmt__server_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct__device__info" prot="public">_device_info</innerclass>
+    <innerclass refid="struct__data__info" prot="public">_data_info</innerclass>
+    <innerclass refid="struct__transfer__result" prot="public">_transfer_result</innerclass>
+    <innerclass refid="struct__rmt__server__cfg" prot="public">_rmt_server_cfg</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="rmt__server_8h_1a87fae341f63e9b85799701c6e8efe8be" prot="public" static="no">
+        <name>CONFIG_KEY_STR_LEN</name>
+        <initializer>4096</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="28" column="9" bodyfile="server/rmt_server.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="rmt__server_8h_1a6d9c295a8312e49f5f56cdf60f22fbeb" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_transfer_status</name>
+        <enumvalue id="rmt__server_8h_1a6d9c295a8312e49f5f56cdf60f22fbebad6bb356eea903fc91c6f40e158b9913e" prot="public">
+          <name>STATUS_DONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="rmt__server_8h_1a6d9c295a8312e49f5f56cdf60f22fbeba0ff59dc8290c4a7d8936a81cae0f7c3c" prot="public">
+          <name>STATUS_RUNNING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="rmt__server_8h_1a6d9c295a8312e49f5f56cdf60f22fbebae38197aefe3c7032d5d5969c563464df" prot="public">
+          <name>STATUS_SERVER_ERROR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="rmt__server_8h_1a6d9c295a8312e49f5f56cdf60f22fbeba67b1febb9036c96b20f756c59f949af4" prot="public">
+          <name>STATUS_AGENT_ERROR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="40" column="30" bodyfile="server/rmt_server.h" bodystart="40" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="rmt__server_8h_1aa1e837192fec2512a2bc36d0b709ca54" prot="public" static="no">
+        <type>struct <ref refid="struct__device__info" kindref="compound">_device_info</ref></type>
+        <definition>typedef struct _device_info device_info</definition>
+        <argsstring></argsstring>
+        <name>device_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="26" column="13"/>
+      </memberdef>
+      <memberdef kind="typedef" id="rmt__server_8h_1a24b755cca8d389ab21a43576ff11b6e3" prot="public" static="no">
+        <type>struct <ref refid="struct__data__info" kindref="compound">_data_info</ref></type>
+        <definition>typedef struct _data_info data_info</definition>
+        <argsstring></argsstring>
+        <name>data_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="32" column="11"/>
+      </memberdef>
+      <memberdef kind="typedef" id="rmt__server_8h_1a1c531e9381ed906092ec870a324a2871" prot="public" static="no">
+        <type>struct <ref refid="struct__transfer__result" kindref="compound">_transfer_result</ref></type>
+        <definition>typedef struct _transfer_result transfer_result</definition>
+        <argsstring></argsstring>
+        <name>transfer_result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="38" column="17"/>
+      </memberdef>
+      <memberdef kind="typedef" id="rmt__server_8h_1a3ee0a51276cb517007cfd94435ef318c" prot="public" static="no">
+        <type>enum _transfer_status</type>
+        <definition>typedef enum _transfer_status transfer_status</definition>
+        <argsstring></argsstring>
+        <name>transfer_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="45" column="17"/>
+      </memberdef>
+      <memberdef kind="typedef" id="rmt__server_8h_1a26b229984040906b4fb5b7971e5115ed" prot="public" static="no">
+        <type>struct <ref refid="struct__rmt__server__cfg" kindref="compound">_rmt_server_cfg</ref></type>
+        <definition>typedef struct _rmt_server_cfg rmt_server_cfg</definition>
+        <argsstring></argsstring>
+        <name>rmt_server_cfg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="50" column="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="rmt__server_8h_1a4d71d5ddd2e1c8086dfdd3ed6ab5c781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int rmt_server_configure</definition>
+        <argsstring>(char *interface, int domain_id)</argsstring>
+        <name>rmt_server_configure</name>
+        <param>
+          <type>char *</type>
+          <declname>interface</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>domain_id</declname>
+        </param>
+        <briefdescription>
+<para>rmt_server_configure Set the config for RMT server </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">interface</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The network interface </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">domain_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The DDS domain ID</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The error code </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>-1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Something wrong </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="63" column="5" declfile="server/rmt_server.h" declline="63" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1ace0e343ea9428d2a6e05dc94e701023c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int rmt_server_init</definition>
+        <argsstring>(void)</argsstring>
+        <name>rmt_server_init</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>rmt_server_init Init RMT server </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The error code </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>-1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Something wrong </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="73" column="5" declfile="server/rmt_server.h" declline="73" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1aa040c8121fb2845dd144b9f9208e0e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__device__info" kindref="compound">device_info</ref> *</type>
+        <definition>device_info* rmt_server_create_device_list</definition>
+        <argsstring>(int *num)</argsstring>
+        <name>rmt_server_create_device_list</name>
+        <param>
+          <type>int *</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+<para>rmt_server_create_device_list Create device list RMT server received. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>How many devices return</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>device_info: Array of device info. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="83" column="13" declfile="server/rmt_server.h" declline="83" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1acc9bd169db96763305aba920340a55c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int rmt_server_free_device_list</definition>
+        <argsstring>(device_info *dev)</argsstring>
+        <name>rmt_server_free_device_list</name>
+        <param>
+          <type><ref refid="struct__device__info" kindref="compound">device_info</ref> *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+<para>rmt_server_free_device_list Free the device list RMT server created. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The device list created by rmt_server_create_device_list</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The error code </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>-1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Something wrong </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="95" column="5" declfile="server/rmt_server.h" declline="95" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1a3c30953a6e5847517125b7b23d8e79a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__data__info" kindref="compound">data_info</ref> *</type>
+        <definition>data_info* rmt_server_get_info</definition>
+        <argsstring>(unsigned long *id_list, int id_num, char *key_list, int *info_num)</argsstring>
+        <name>rmt_server_get_info</name>
+        <param>
+          <type>unsigned long *</type>
+          <declname>id_list</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id_num</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>key_list</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>info_num</declname>
+        </param>
+        <briefdescription>
+<para>rmt_server_get_info Get the information from device. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">id_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unsigned long array </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">id_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of id </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">key_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the string of key and each key is splitted with &quot;;&quot;, for example &quot;cpu;ram;...&quot; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">info_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of return data_info</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>data_info: data_info array. value_list is the string of key-value pairs, for example &quot;cpu:20;ram:30;...&quot;. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="108" column="11" declfile="server/rmt_server.h" declline="108" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1a27b73bc2baa0e78c574b33f3bd1ce3d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int rmt_server_free_info</definition>
+        <argsstring>(data_info *info_list)</argsstring>
+        <name>rmt_server_free_info</name>
+        <param>
+          <type><ref refid="struct__data__info" kindref="compound">data_info</ref> *</type>
+          <declname>info_list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="109" column="5" declfile="server/rmt_server.h" declline="109" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1a1a58d0820e7e9adba7b5c1b5349ed90a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__data__info" kindref="compound">data_info</ref> *</type>
+        <definition>data_info* rmt_server_set_info</definition>
+        <argsstring>(data_info *dev_list, int dev_num, int *info_num)</argsstring>
+        <name>rmt_server_set_info</name>
+        <param>
+          <type><ref refid="struct__data__info" kindref="compound">data_info</ref> *</type>
+          <declname>dev_list</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dev_num</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>info_num</declname>
+        </param>
+        <briefdescription>
+<para>rmt_server_set_info Set the information to device </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">data_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data_info array. value_list is the string of key-value pairs, for example &quot;hostname:my_name;locate:on;...&quot; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">dev_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of device </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">info_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of return data_info</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>data_info: data_info array. value_list is the string of key-value pairs, for example &quot;hostname:0;locate:-1;...&quot; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="121" column="11" declfile="server/rmt_server.h" declline="121" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1a8e53b84623b4223161715b16843f2931" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__data__info" kindref="compound">data_info</ref> *</type>
+        <definition>data_info* rmt_server_set_info_with_same_value</definition>
+        <argsstring>(unsigned long *id_list, int id_num, char *value_list, int *info_num)</argsstring>
+        <name>rmt_server_set_info_with_same_value</name>
+        <param>
+          <type>unsigned long *</type>
+          <declname>id_list</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id_num</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>value_list</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>info_num</declname>
+        </param>
+        <briefdescription>
+<para>rmt_server_set_info_with_same_value Set the information to device with the same value </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">id_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unsigned long array </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">id_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of id </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">value_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the pairs of key and value, for example &quot;hostname:my_name;locate:on;...&quot; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">inf_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of return data_info</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>data_info: data_info array. value_list is the string of key-value pairs, for example &quot;hostname:0;locate:-1;...&quot; </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="134" column="11" declfile="server/rmt_server.h" declline="134" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1a211bffb80a920cb6c914b32dd582dd9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int rmt_server_send_file</definition>
+        <argsstring>(unsigned long *id_list, int id_num, char *callbackname, char *filename, void *pFile, unsigned long file_len)</argsstring>
+        <name>rmt_server_send_file</name>
+        <param>
+          <type>unsigned long *</type>
+          <declname>id_list</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id_num</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>callbackname</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>pFile</declname>
+        </param>
+        <param>
+          <type>unsigned long</type>
+          <declname>file_len</declname>
+        </param>
+        <briefdescription>
+<para>rmt_server_send_file Send files to agent Note that the file transfer last time should be done before you use the function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">id_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unsigned long array </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">id_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of id </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">callbackname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the callback you want to call </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the file you want to send </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">pFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the content of the file </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">file_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the length of the file</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The error code </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>-1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Something wrong, e.g. the last file transfer is still running </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="152" column="5" declfile="server/rmt_server.h" declline="152" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1a4e23bbe2fd29efa1b4b205b7cf660dc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int rmt_server_recv_file</definition>
+        <argsstring>(unsigned long id, char *callbackname, char *filename)</argsstring>
+        <name>rmt_server_recv_file</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>callbackname</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>rmt_server_recv_file Get files from agent Note that the file transfer last time should be done before you use the function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id you want to get file from </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">callbackname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the callback you want to call </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the file you want to receive</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The error code </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>-1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Something wrong, e.g. the last file transfer is still running </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="167" column="5" declfile="server/rmt_server.h" declline="167" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1a2dc79d7043fa2f21a512eba67504da91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>transfer_status</type>
+        <definition>transfer_status rmt_server_get_result</definition>
+        <argsstring>(unsigned long device_id, transfer_result *result)</argsstring>
+        <name>rmt_server_get_result</name>
+        <param>
+          <type>unsigned long</type>
+          <declname>device_id</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__transfer__result" kindref="compound">transfer_result</ref> *</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+<para>rmt_server_get_result Get the result of file transfer by handle ID Note that the status of handle_id will be clear when you get the DONE status. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">device_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the device ID </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the file transfer result</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>transfer_status indicates the file transfer status of device ID. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="179" column="17" declfile="server/rmt_server.h" declline="179" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1a097f6de36acaa49e69808c71867f85da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int rmt_server_deinit</definition>
+        <argsstring>(void)</argsstring>
+        <name>rmt_server_deinit</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>rmt_server_deinit Deinit the RMT library after use. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The error code </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>-1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Something wrong </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="189" column="5" declfile="server/rmt_server.h" declline="189" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1a715c992da8dc59ca11687c95785dd645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* rmt_server_version</definition>
+        <argsstring>(void)</argsstring>
+        <name>rmt_server_version</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>rmt_server_version Return the version of RMT library </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>return the library version in string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="197" column="6" declfile="server/rmt_server.h" declline="197" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__server_8h_1aa44912454f738070e29f5d1463ace408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rmt_reinit_server</definition>
+        <argsstring>(void)</argsstring>
+        <name>rmt_reinit_server</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>rmt_reinit_server Reinit the server </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="203" column="6" declfile="server/rmt_server.h" declline="203" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>RMT server library API. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_RMT_SERVER_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_RMT_SERVER_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>*INDENT-OFF*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>*INDENT-ON*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="comment">//<sp/>RMT_TODO:<sp/>use<sp/>char[]<sp/>instead<sp/>of<sp/>char*<sp/>in<sp/>the<sp/>future,<sp/>or<sp/>it&apos;ll<sp/>cause<sp/>memory<sp/>leak.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="struct__device__info" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__device__info" kindref="compound">_device_info</ref><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>deviceID;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*model;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*host;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ip;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*mac;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*rmt_version;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*devinfo;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}<sp/><ref refid="struct__device__info" kindref="compound">device_info</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONFIG_KEY_STR_LEN<sp/>4096</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="struct__data__info" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__data__info" kindref="compound">_data_info</ref><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>deviceID;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>value_list[CONFIG_KEY_STR_LEN<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}<sp/><ref refid="struct__data__info" kindref="compound">data_info</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="struct__transfer__result" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__transfer__result" kindref="compound">_transfer_result</ref><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*pFile;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>file_len;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}<sp/><ref refid="struct__transfer__result" kindref="compound">transfer_result</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>_transfer_status<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>STATUS_DONE<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>STATUS_RUNNING,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>STATUS_SERVER_ERROR,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>STATUS_AGENT_ERROR,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}<sp/>transfer_status;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="struct__rmt__server__cfg" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__rmt__server__cfg" kindref="compound">_rmt_server_cfg</ref><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*net_interface;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>NULL<sp/>or<sp/>empty<sp/>for<sp/>default<sp/>interface<sp/>chosen<sp/>by<sp/>RMT<sp/>server</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>domain_id;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>0<sp/>for<sp/>default<sp/>domain<sp/>ID<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}<sp/><ref refid="struct__rmt__server__cfg" kindref="compound">rmt_server_cfg</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rmt__server_8h_1a4d71d5ddd2e1c8086dfdd3ed6ab5c781" kindref="member">rmt_server_configure</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*interface,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>domain_id);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rmt__server_8h_1ace0e343ea9428d2a6e05dc94e701023c" kindref="member">rmt_server_init</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><ref refid="struct__device__info" kindref="compound">device_info</ref><sp/>*<ref refid="rmt__server_8h_1aa040c8121fb2845dd144b9f9208e0e72" kindref="member">rmt_server_create_device_list</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*num);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rmt__server_8h_1acc9bd169db96763305aba920340a55c0" kindref="member">rmt_server_free_device_list</ref>(<ref refid="struct__device__info" kindref="compound">device_info</ref><sp/>*dev);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><ref refid="struct__data__info" kindref="compound">data_info</ref>*<sp/><ref refid="rmt__server_8h_1a3c30953a6e5847517125b7b23d8e79a0" kindref="member">rmt_server_get_info</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*id_list,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>id_num,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key_list,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*info_num);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rmt_server_free_info(<ref refid="struct__data__info" kindref="compound">data_info</ref>*<sp/>info_list);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><ref refid="struct__data__info" kindref="compound">data_info</ref>*<sp/><ref refid="rmt__server_8h_1a1a58d0820e7e9adba7b5c1b5349ed90a" kindref="member">rmt_server_set_info</ref>(<ref refid="struct__data__info" kindref="compound">data_info</ref><sp/>*dev_list,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dev_num,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*info_num);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><ref refid="struct__data__info" kindref="compound">data_info</ref>*<sp/><ref refid="rmt__server_8h_1a8e53b84623b4223161715b16843f2931" kindref="member">rmt_server_set_info_with_same_value</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*id_list,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>id_num,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_list,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*info_num);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rmt__server_8h_1a211bffb80a920cb6c914b32dd582dd9a" kindref="member">rmt_server_send_file</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*id_list,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>id_num,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*callbackname,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*pFile,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>file_len);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rmt__server_8h_1a4e23bbe2fd29efa1b4b205b7cf660dc0" kindref="member">rmt_server_recv_file</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*callbackname,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal">transfer_status<sp/><ref refid="rmt__server_8h_1a2dc79d7043fa2f21a512eba67504da91" kindref="member">rmt_server_get_result</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>device_id,<sp/><ref refid="struct__transfer__result" kindref="compound">transfer_result</ref><sp/>*result);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rmt__server_8h_1a097f6de36acaa49e69808c71867f85da" kindref="member">rmt_server_deinit</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="rmt__server_8h_1a715c992da8dc59ca11687c95785dd645" kindref="member">rmt_server_version</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="rmt__server_8h_1aa44912454f738070e29f5d1463ace408" kindref="member">rmt_reinit_server</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>*INDENT-OFF*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>extern<sp/>&quot;C&quot;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>*INDENT-ON*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*_RMT_SERVER_*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="server/rmt_server.h"/>
+  </compounddef>
+</doxygen>

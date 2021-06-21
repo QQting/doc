@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct__transfer__result" kind="struct" language="C++" prot="public">
+    <compoundname>_transfer_result</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__transfer__result_1a50cae212a333e2c7a629f9da520dfb60" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _transfer_result::result</definition>
+        <argsstring></argsstring>
+        <name>result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="35" column="9" bodyfile="server/rmt_server.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__transfer__result_1a3b51fb9ddb6f8ad851f1d6e0f789ea91" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _transfer_result::pFile</definition>
+        <argsstring></argsstring>
+        <name>pFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="36" column="10" bodyfile="server/rmt_server.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__transfer__result_1a775c46136afd7b98b65d642ba1d4adac" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long _transfer_result::file_len</definition>
+        <argsstring></argsstring>
+        <name>file_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="37" column="19" bodyfile="server/rmt_server.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="server/rmt_server.h" line="34" column="31" bodyfile="server/rmt_server.h" bodystart="34" bodyend="38"/>
+    <listofallmembers>
+      <member refid="struct__transfer__result_1a775c46136afd7b98b65d642ba1d4adac" prot="public" virt="non-virtual"><scope>_transfer_result</scope><name>file_len</name></member>
+      <member refid="struct__transfer__result_1a3b51fb9ddb6f8ad851f1d6e0f789ea91" prot="public" virt="non-virtual"><scope>_transfer_result</scope><name>pFile</name></member>
+      <member refid="struct__transfer__result_1a50cae212a333e2c7a629f9da520dfb60" prot="public" virt="non-virtual"><scope>_transfer_result</scope><name>result</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="struct__data__info" kind="struct"><name>_data_info</name>
+    <member refid="struct__data__info_1a59499b42536900460eb16c1ed77000c8" kind="variable"><name>deviceID</name></member>
+    <member refid="struct__data__info_1aaa1a0d0e01664b1686f57aa8b7b78144" kind="variable"><name>value_list</name></member>
+  </compound>
+  <compound refid="struct__device__info" kind="struct"><name>_device_info</name>
+    <member refid="struct__device__info_1a555fd479b09c1944cb0eff13abc953a9" kind="variable"><name>deviceID</name></member>
+    <member refid="struct__device__info_1a2d4db0c570da65ad414046809a942162" kind="variable"><name>model</name></member>
+    <member refid="struct__device__info_1a09d9803973ce5fef2844cfd322a2cd75" kind="variable"><name>host</name></member>
+    <member refid="struct__device__info_1ab2ac76827ae1105729fcd3b0d12bfc3e" kind="variable"><name>ip</name></member>
+    <member refid="struct__device__info_1afe8c86d4123b9a9be2c82ce3ef1e1056" kind="variable"><name>mac</name></member>
+    <member refid="struct__device__info_1a5a0bcb98ef9dc27f9c565ba2673e942f" kind="variable"><name>rmt_version</name></member>
+    <member refid="struct__device__info_1ad845570080e89ffb92f3a7cff7110860" kind="variable"><name>devinfo</name></member>
+  </compound>
+  <compound refid="struct__rmt__agent__cfg" kind="struct"><name>_rmt_agent_cfg</name>
+    <member refid="struct__rmt__agent__cfg_1ad40c6f1791ec0a27dcd8d9ac88aa7f2e" kind="variable"><name>net_interface</name></member>
+    <member refid="struct__rmt__agent__cfg_1ab924bf5e2090d170d9eb3bc821315a6e" kind="variable"><name>device_id</name></member>
+    <member refid="struct__rmt__agent__cfg_1a5393b8948ec602a6feb2deff37e37731" kind="variable"><name>domain_id</name></member>
+    <member refid="struct__rmt__agent__cfg_1ac52aff8bf22032e3fa4ac951d645c030" kind="variable"><name>datainfo_val_size</name></member>
+    <member refid="struct__rmt__agent__cfg_1aa873b18dd728c7f0e49ed1864252f644" kind="variable"><name>devinfo_size</name></member>
+  </compound>
+  <compound refid="struct__rmt__server__cfg" kind="struct"><name>_rmt_server_cfg</name>
+    <member refid="struct__rmt__server__cfg_1a3e8af48f099050bfe6d18c4ff651d255" kind="variable"><name>net_interface</name></member>
+    <member refid="struct__rmt__server__cfg_1a55c97f8abfd7250da63ab91efbaa87ee" kind="variable"><name>domain_id</name></member>
+  </compound>
+  <compound refid="struct__transfer__result" kind="struct"><name>_transfer_result</name>
+    <member refid="struct__transfer__result_1a50cae212a333e2c7a629f9da520dfb60" kind="variable"><name>result</name></member>
+    <member refid="struct__transfer__result_1a3b51fb9ddb6f8ad851f1d6e0f789ea91" kind="variable"><name>pFile</name></member>
+    <member refid="struct__transfer__result_1a775c46136afd7b98b65d642ba1d4adac" kind="variable"><name>file_len</name></member>
+  </compound>
+  <compound refid="structdatainfo__func" kind="struct"><name>datainfo_func</name>
+    <member refid="structdatainfo__func_1ad7c37e5326628c1d4be8b1cb4879c546" kind="variable"><name>key</name></member>
+    <member refid="structdatainfo__func_1a3b9c9c3a804c3e0cff73d1ec9216bada" kind="variable"><name>get_func</name></member>
+    <member refid="structdatainfo__func_1a0a0070ab2d0fc2b772e2cc3ca07c31a1" kind="variable"><name>set_func</name></member>
+  </compound>
+  <compound refid="structfileinfo__func" kind="struct"><name>fileinfo_func</name>
+    <member refid="structfileinfo__func_1aa257b34cbe5090c99928bc1f766d1ad7" kind="variable"><name>callbackname</name></member>
+    <member refid="structfileinfo__func_1a31b1b5a6028a089b29e07d5ee7ce15ad" kind="variable"><name>path</name></member>
+    <member refid="structfileinfo__func_1a71ed37b1593f7c2d12dd2a32ab82d09e" kind="variable"><name>import_func</name></member>
+    <member refid="structfileinfo__func_1ac30dd3a81c09e546b81b044ce30f5b54" kind="variable"><name>export_func</name></member>
+  </compound>
+  <compound refid="rmt__agent_8h" kind="file"><name>rmt_agent.h</name>
+    <member refid="rmt__agent_8h_1a7b48e3e19865194b72b3a55911ad3105" kind="typedef"><name>devinfo_func</name></member>
+    <member refid="rmt__agent_8h_1aaf7b680967ed871f01d0a9234f4eab89" kind="typedef"><name>INFO_FUNC</name></member>
+    <member refid="rmt__agent_8h_1ae7e2362cf778bae61770ba45db3c097d" kind="typedef"><name>datainfo_func</name></member>
+    <member refid="rmt__agent_8h_1a586b632b6c2188a554eb971b375ce1f0" kind="typedef"><name>FILE_FUNC</name></member>
+    <member refid="rmt__agent_8h_1a229ececdbac95177ee93fe41f2b60d7f" kind="typedef"><name>fileinfo_func</name></member>
+    <member refid="rmt__agent_8h_1a2aa20ee321669f72e61bfa0d7c84473f" kind="typedef"><name>rmt_agent_cfg</name></member>
+    <member refid="rmt__agent_8h_1ae7ffc0439c28ff5f979655e6fa3d37c0" kind="function"><name>rmt_agent_configure</name></member>
+    <member refid="rmt__agent_8h_1a4b61921c678b801e0d135b840b8dbbfb" kind="function"><name>rmt_agent_init</name></member>
+    <member refid="rmt__agent_8h_1a6128a088b8a2b0487fadf3e37639c4ac" kind="function"><name>rmt_agent_running</name></member>
+    <member refid="rmt__agent_8h_1ab28263288f89a5cf0fa398020d6902a7" kind="function"><name>rmt_agent_deinit</name></member>
+    <member refid="rmt__agent_8h_1a9f1dc6491b64f75afc52a9c18ad66446" kind="function"><name>rmt_agent_version</name></member>
+  </compound>
+  <compound refid="rmt__server_8h" kind="file"><name>rmt_server.h</name>
+    <member refid="rmt__server_8h_1a87fae341f63e9b85799701c6e8efe8be" kind="define"><name>CONFIG_KEY_STR_LEN</name></member>
+    <member refid="rmt__server_8h_1a6d9c295a8312e49f5f56cdf60f22fbeb" kind="enum"><name>_transfer_status</name></member>
+    <member refid="rmt__server_8h_1a6d9c295a8312e49f5f56cdf60f22fbebad6bb356eea903fc91c6f40e158b9913e" kind="enumvalue"><name>STATUS_DONE</name></member>
+    <member refid="rmt__server_8h_1a6d9c295a8312e49f5f56cdf60f22fbeba0ff59dc8290c4a7d8936a81cae0f7c3c" kind="enumvalue"><name>STATUS_RUNNING</name></member>
+    <member refid="rmt__server_8h_1a6d9c295a8312e49f5f56cdf60f22fbebae38197aefe3c7032d5d5969c563464df" kind="enumvalue"><name>STATUS_SERVER_ERROR</name></member>
+    <member refid="rmt__server_8h_1a6d9c295a8312e49f5f56cdf60f22fbeba67b1febb9036c96b20f756c59f949af4" kind="enumvalue"><name>STATUS_AGENT_ERROR</name></member>
+    <member refid="rmt__server_8h_1aa1e837192fec2512a2bc36d0b709ca54" kind="typedef"><name>device_info</name></member>
+    <member refid="rmt__server_8h_1a24b755cca8d389ab21a43576ff11b6e3" kind="typedef"><name>data_info</name></member>
+    <member refid="rmt__server_8h_1a1c531e9381ed906092ec870a324a2871" kind="typedef"><name>transfer_result</name></member>
+    <member refid="rmt__server_8h_1a3ee0a51276cb517007cfd94435ef318c" kind="typedef"><name>transfer_status</name></member>
+    <member refid="rmt__server_8h_1a26b229984040906b4fb5b7971e5115ed" kind="typedef"><name>rmt_server_cfg</name></member>
+    <member refid="rmt__server_8h_1a4d71d5ddd2e1c8086dfdd3ed6ab5c781" kind="function"><name>rmt_server_configure</name></member>
+    <member refid="rmt__server_8h_1ace0e343ea9428d2a6e05dc94e701023c" kind="function"><name>rmt_server_init</name></member>
+    <member refid="rmt__server_8h_1aa040c8121fb2845dd144b9f9208e0e72" kind="function"><name>rmt_server_create_device_list</name></member>
+    <member refid="rmt__server_8h_1acc9bd169db96763305aba920340a55c0" kind="function"><name>rmt_server_free_device_list</name></member>
+    <member refid="rmt__server_8h_1a3c30953a6e5847517125b7b23d8e79a0" kind="function"><name>rmt_server_get_info</name></member>
+    <member refid="rmt__server_8h_1a27b73bc2baa0e78c574b33f3bd1ce3d7" kind="function"><name>rmt_server_free_info</name></member>
+    <member refid="rmt__server_8h_1a1a58d0820e7e9adba7b5c1b5349ed90a" kind="function"><name>rmt_server_set_info</name></member>
+    <member refid="rmt__server_8h_1a8e53b84623b4223161715b16843f2931" kind="function"><name>rmt_server_set_info_with_same_value</name></member>
+    <member refid="rmt__server_8h_1a211bffb80a920cb6c914b32dd582dd9a" kind="function"><name>rmt_server_send_file</name></member>
+    <member refid="rmt__server_8h_1a4e23bbe2fd29efa1b4b205b7cf660dc0" kind="function"><name>rmt_server_recv_file</name></member>
+    <member refid="rmt__server_8h_1a2dc79d7043fa2f21a512eba67504da91" kind="function"><name>rmt_server_get_result</name></member>
+    <member refid="rmt__server_8h_1a097f6de36acaa49e69808c71867f85da" kind="function"><name>rmt_server_deinit</name></member>
+    <member refid="rmt__server_8h_1a715c992da8dc59ca11687c95785dd645" kind="function"><name>rmt_server_version</name></member>
+    <member refid="rmt__server_8h_1aa44912454f738070e29f5d1463ace408" kind="function"><name>rmt_reinit_server</name></member>
+  </compound>
+  <compound refid="dir_7729c337850573dc74d1ac4f90fc9ea2" kind="dir"><name>agent</name>
+  </compound>
+  <compound refid="dir_41e1742e44e2de38b3bc91f993fed282" kind="dir"><name>server</name>
+  </compound>
+</doxygenindex>

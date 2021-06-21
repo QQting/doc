@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct__rmt__agent__cfg" kind="struct" language="C++" prot="public">
+    <compoundname>_rmt_agent_cfg</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__rmt__agent__cfg_1ad40c6f1791ec0a27dcd8d9ac88aa7f2e" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _rmt_agent_cfg::net_interface</definition>
+        <argsstring></argsstring>
+        <name>net_interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="36" column="10" bodyfile="agent/rmt_agent.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__rmt__agent__cfg_1ab924bf5e2090d170d9eb3bc821315a6e" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t _rmt_agent_cfg::device_id</definition>
+        <argsstring></argsstring>
+        <name>device_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="37" column="14" bodyfile="agent/rmt_agent.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__rmt__agent__cfg_1a5393b8948ec602a6feb2deff37e37731" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _rmt_agent_cfg::domain_id</definition>
+        <argsstring></argsstring>
+        <name>domain_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="38" column="9" bodyfile="agent/rmt_agent.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__rmt__agent__cfg_1ac52aff8bf22032e3fa4ac951d645c030" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long _rmt_agent_cfg::datainfo_val_size</definition>
+        <argsstring></argsstring>
+        <name>datainfo_val_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="39" column="19" bodyfile="agent/rmt_agent.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__rmt__agent__cfg_1aa873b18dd728c7f0e49ed1864252f644" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long _rmt_agent_cfg::devinfo_size</definition>
+        <argsstring></argsstring>
+        <name>devinfo_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="40" column="19" bodyfile="agent/rmt_agent.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="agent/rmt_agent.h" line="35" column="29" bodyfile="agent/rmt_agent.h" bodystart="35" bodyend="41"/>
+    <listofallmembers>
+      <member refid="struct__rmt__agent__cfg_1ac52aff8bf22032e3fa4ac951d645c030" prot="public" virt="non-virtual"><scope>_rmt_agent_cfg</scope><name>datainfo_val_size</name></member>
+      <member refid="struct__rmt__agent__cfg_1ab924bf5e2090d170d9eb3bc821315a6e" prot="public" virt="non-virtual"><scope>_rmt_agent_cfg</scope><name>device_id</name></member>
+      <member refid="struct__rmt__agent__cfg_1aa873b18dd728c7f0e49ed1864252f644" prot="public" virt="non-virtual"><scope>_rmt_agent_cfg</scope><name>devinfo_size</name></member>
+      <member refid="struct__rmt__agent__cfg_1a5393b8948ec602a6feb2deff37e37731" prot="public" virt="non-virtual"><scope>_rmt_agent_cfg</scope><name>domain_id</name></member>
+      <member refid="struct__rmt__agent__cfg_1ad40c6f1791ec0a27dcd8d9ac88aa7f2e" prot="public" virt="non-virtual"><scope>_rmt_agent_cfg</scope><name>net_interface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

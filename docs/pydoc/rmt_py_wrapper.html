@@ -1,0 +1,584 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module rmt_py_wrapper</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>rmt_py_wrapper</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/ros/RMT/build/swig/rmt_py_wrapper.py">/home/ros/RMT/build/swig/rmt_py_wrapper.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;This&nbsp;file&nbsp;was&nbsp;automatically&nbsp;generated&nbsp;by&nbsp;SWIG&nbsp;(<a href="http://www.swig.org">http://www.swig.org</a>).<br>
+#&nbsp;Version&nbsp;4.0.1<br>
+#<br>
+#&nbsp;Do&nbsp;not&nbsp;make&nbsp;changes&nbsp;to&nbsp;this&nbsp;file&nbsp;unless&nbsp;you&nbsp;know&nbsp;what&nbsp;you&nbsp;are&nbsp;doing--modify<br>
+#&nbsp;the&nbsp;SWIG&nbsp;interface&nbsp;file&nbsp;instead.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="builtins.html">builtins</a><br>
+</td><td width="25%" valign=top><a href="_rmt_py_wrapper.html">_rmt_py_wrapper</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="rmt_py_wrapper.html#data_info">data_info</a>
+</font></dt><dt><font face="helvetica, arial"><a href="rmt_py_wrapper.html#data_info_list">data_info_list</a>
+</font></dt><dt><font face="helvetica, arial"><a href="rmt_py_wrapper.html#device_info">device_info</a>
+</font></dt><dt><font face="helvetica, arial"><a href="rmt_py_wrapper.html#device_info_list">device_info_list</a>
+</font></dt><dt><font face="helvetica, arial"><a href="rmt_py_wrapper.html#rmt_server_cfg">rmt_server_cfg</a>
+</font></dt><dt><font face="helvetica, arial"><a href="rmt_py_wrapper.html#transfer_result">transfer_result</a>
+</font></dt><dt><font face="helvetica, arial"><a href="rmt_py_wrapper.html#ulong_array">ulong_array</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="data_info">class <strong>data_info</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Proxy&nbsp;of&nbsp;C&nbsp;_data_info&nbsp;struct.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="data_info-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt><a href="#data_info-__init__">__init__</a>(<a href="#data_info">data_info</a>&nbsp;self)&nbsp;-&gt;&nbsp;<a href="#data_info">data_info</a></tt></dd></dl>
+
+<dl><dt><a name="data_info-__repr__"><strong>__repr__</strong></a> = _swig_repr(self)</dt></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="data_info-__swig_destroy__"><strong>__swig_destroy__</strong></a> = delete_data_info(...)</dt><dd><tt>delete_data_info(<a href="#data_info">data_info</a>&nbsp;self)</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>deviceID</strong></dt>
+<dd><tt>deviceID&nbsp;:&nbsp;unsigned&nbsp;long</tt></dd>
+</dl>
+<dl><dt><strong>thisown</strong></dt>
+<dd><tt>The&nbsp;membership&nbsp;flag</tt></dd>
+</dl>
+<dl><dt><strong>value_list</strong></dt>
+<dd><tt>value_list&nbsp;:&nbsp;a(4096+1).char</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="data_info_list">class <strong>data_info_list</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#data_info_list">data_info_list</a>(nelements)<br>
+&nbsp;<br>
+Proxy&nbsp;of&nbsp;C&nbsp;<a href="#data_info_list">data_info_list</a>&nbsp;struct.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="data_info_list-__getitem__"><strong>__getitem__</strong></a>(self, index)</dt><dd><tt><a href="#data_info_list-__getitem__">__getitem__</a>(<a href="#data_info_list">data_info_list</a>&nbsp;self,&nbsp;size_t&nbsp;index)&nbsp;-&gt;&nbsp;<a href="#data_info">data_info</a></tt></dd></dl>
+
+<dl><dt><a name="data_info_list-__init__"><strong>__init__</strong></a>(self, nelements)</dt><dd><tt><a href="#data_info_list-__init__">__init__</a>(<a href="#data_info_list">data_info_list</a>&nbsp;self,&nbsp;size_t&nbsp;nelements)&nbsp;-&gt;&nbsp;<a href="#data_info_list">data_info_list</a></tt></dd></dl>
+
+<dl><dt><a name="data_info_list-__repr__"><strong>__repr__</strong></a> = _swig_repr(self)</dt></dl>
+
+<dl><dt><a name="data_info_list-__setitem__"><strong>__setitem__</strong></a>(self, index, value)</dt><dd><tt><a href="#data_info_list-__setitem__">__setitem__</a>(<a href="#data_info_list">data_info_list</a>&nbsp;self,&nbsp;size_t&nbsp;index,&nbsp;<a href="#data_info">data_info</a>&nbsp;value)</tt></dd></dl>
+
+<dl><dt><a name="data_info_list-cast"><strong>cast</strong></a>(self)</dt><dd><tt><a href="#data_info_list-cast">cast</a>(<a href="#data_info_list">data_info_list</a>&nbsp;self)&nbsp;-&gt;&nbsp;<a href="#data_info">data_info</a></tt></dd></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="data_info_list-__swig_destroy__"><strong>__swig_destroy__</strong></a> = delete_data_info_list(...)</dt><dd><tt>delete_data_info_list(<a href="#data_info_list">data_info_list</a>&nbsp;self)</tt></dd></dl>
+
+<dl><dt><a name="data_info_list-frompointer"><strong>frompointer</strong></a>(t)</dt><dd><tt><a href="#data_info_list-frompointer">frompointer</a>(<a href="#data_info">data_info</a>&nbsp;t)&nbsp;-&gt;&nbsp;<a href="#data_info_list">data_info_list</a></tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>thisown</strong></dt>
+<dd><tt>The&nbsp;membership&nbsp;flag</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="device_info">class <strong>device_info</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Proxy&nbsp;of&nbsp;C&nbsp;_device_info&nbsp;struct.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="device_info-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt><a href="#device_info-__init__">__init__</a>(<a href="#device_info">device_info</a>&nbsp;self)&nbsp;-&gt;&nbsp;<a href="#device_info">device_info</a></tt></dd></dl>
+
+<dl><dt><a name="device_info-__repr__"><strong>__repr__</strong></a> = _swig_repr(self)</dt></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="device_info-__swig_destroy__"><strong>__swig_destroy__</strong></a> = delete_device_info(...)</dt><dd><tt>delete_device_info(<a href="#device_info">device_info</a>&nbsp;self)</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>deviceID</strong></dt>
+<dd><tt>deviceID&nbsp;:&nbsp;unsigned&nbsp;long</tt></dd>
+</dl>
+<dl><dt><strong>devinfo</strong></dt>
+<dd><tt>devinfo&nbsp;:&nbsp;p.char</tt></dd>
+</dl>
+<dl><dt><strong>host</strong></dt>
+<dd><tt>host&nbsp;:&nbsp;p.char</tt></dd>
+</dl>
+<dl><dt><strong>ip</strong></dt>
+<dd><tt>ip&nbsp;:&nbsp;p.char</tt></dd>
+</dl>
+<dl><dt><strong>mac</strong></dt>
+<dd><tt>mac&nbsp;:&nbsp;p.char</tt></dd>
+</dl>
+<dl><dt><strong>model</strong></dt>
+<dd><tt>model&nbsp;:&nbsp;p.char</tt></dd>
+</dl>
+<dl><dt><strong>rmt_version</strong></dt>
+<dd><tt>rmt_version&nbsp;:&nbsp;p.char</tt></dd>
+</dl>
+<dl><dt><strong>thisown</strong></dt>
+<dd><tt>The&nbsp;membership&nbsp;flag</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="device_info_list">class <strong>device_info_list</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#device_info_list">device_info_list</a>(nelements)<br>
+&nbsp;<br>
+Proxy&nbsp;of&nbsp;C&nbsp;<a href="#device_info_list">device_info_list</a>&nbsp;struct.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="device_info_list-__getitem__"><strong>__getitem__</strong></a>(self, index)</dt><dd><tt><a href="#device_info_list-__getitem__">__getitem__</a>(<a href="#device_info_list">device_info_list</a>&nbsp;self,&nbsp;size_t&nbsp;index)&nbsp;-&gt;&nbsp;<a href="#device_info">device_info</a></tt></dd></dl>
+
+<dl><dt><a name="device_info_list-__init__"><strong>__init__</strong></a>(self, nelements)</dt><dd><tt><a href="#device_info_list-__init__">__init__</a>(<a href="#device_info_list">device_info_list</a>&nbsp;self,&nbsp;size_t&nbsp;nelements)&nbsp;-&gt;&nbsp;<a href="#device_info_list">device_info_list</a></tt></dd></dl>
+
+<dl><dt><a name="device_info_list-__repr__"><strong>__repr__</strong></a> = _swig_repr(self)</dt></dl>
+
+<dl><dt><a name="device_info_list-__setitem__"><strong>__setitem__</strong></a>(self, index, value)</dt><dd><tt><a href="#device_info_list-__setitem__">__setitem__</a>(<a href="#device_info_list">device_info_list</a>&nbsp;self,&nbsp;size_t&nbsp;index,&nbsp;<a href="#device_info">device_info</a>&nbsp;value)</tt></dd></dl>
+
+<dl><dt><a name="device_info_list-cast"><strong>cast</strong></a>(self)</dt><dd><tt><a href="#device_info_list-cast">cast</a>(<a href="#device_info_list">device_info_list</a>&nbsp;self)&nbsp;-&gt;&nbsp;<a href="#device_info">device_info</a></tt></dd></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="device_info_list-__swig_destroy__"><strong>__swig_destroy__</strong></a> = delete_device_info_list(...)</dt><dd><tt>delete_device_info_list(<a href="#device_info_list">device_info_list</a>&nbsp;self)</tt></dd></dl>
+
+<dl><dt><a name="device_info_list-frompointer"><strong>frompointer</strong></a>(t)</dt><dd><tt><a href="#device_info_list-frompointer">frompointer</a>(<a href="#device_info">device_info</a>&nbsp;t)&nbsp;-&gt;&nbsp;<a href="#device_info_list">device_info_list</a></tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>thisown</strong></dt>
+<dd><tt>The&nbsp;membership&nbsp;flag</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="rmt_server_cfg">class <strong>rmt_server_cfg</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Proxy&nbsp;of&nbsp;C&nbsp;_rmt_server_cfg&nbsp;struct.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="rmt_server_cfg-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt><a href="#rmt_server_cfg-__init__">__init__</a>(<a href="#rmt_server_cfg">rmt_server_cfg</a>&nbsp;self)&nbsp;-&gt;&nbsp;<a href="#rmt_server_cfg">rmt_server_cfg</a></tt></dd></dl>
+
+<dl><dt><a name="rmt_server_cfg-__repr__"><strong>__repr__</strong></a> = _swig_repr(self)</dt></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="rmt_server_cfg-__swig_destroy__"><strong>__swig_destroy__</strong></a> = delete_rmt_server_cfg(...)</dt><dd><tt>delete_rmt_server_cfg(<a href="#rmt_server_cfg">rmt_server_cfg</a>&nbsp;self)</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>domain_id</strong></dt>
+<dd><tt>domain_id&nbsp;:&nbsp;int</tt></dd>
+</dl>
+<dl><dt><strong>net_interface</strong></dt>
+<dd><tt>net_interface&nbsp;:&nbsp;p.char</tt></dd>
+</dl>
+<dl><dt><strong>thisown</strong></dt>
+<dd><tt>The&nbsp;membership&nbsp;flag</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="transfer_result">class <strong>transfer_result</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Proxy&nbsp;of&nbsp;C&nbsp;_transfer_result&nbsp;struct.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="transfer_result-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt><a href="#transfer_result-__init__">__init__</a>(<a href="#transfer_result">transfer_result</a>&nbsp;self)&nbsp;-&gt;&nbsp;<a href="#transfer_result">transfer_result</a></tt></dd></dl>
+
+<dl><dt><a name="transfer_result-__repr__"><strong>__repr__</strong></a> = _swig_repr(self)</dt></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="transfer_result-__swig_destroy__"><strong>__swig_destroy__</strong></a> = delete_transfer_result(...)</dt><dd><tt>delete_transfer_result(<a href="#transfer_result">transfer_result</a>&nbsp;self)</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>file_len</strong></dt>
+<dd><tt>file_len&nbsp;:&nbsp;unsigned&nbsp;long</tt></dd>
+</dl>
+<dl><dt><strong>pFile</strong></dt>
+<dd><tt>pFile&nbsp;:&nbsp;p.void</tt></dd>
+</dl>
+<dl><dt><strong>result</strong></dt>
+<dd><tt>result&nbsp;:&nbsp;int</tt></dd>
+</dl>
+<dl><dt><strong>thisown</strong></dt>
+<dd><tt>The&nbsp;membership&nbsp;flag</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ulong_array">class <strong>ulong_array</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#ulong_array">ulong_array</a>(nelements)<br>
+&nbsp;<br>
+Proxy&nbsp;of&nbsp;C&nbsp;<a href="#ulong_array">ulong_array</a>&nbsp;struct.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="ulong_array-__getitem__"><strong>__getitem__</strong></a>(self, index)</dt><dd><tt><a href="#ulong_array-__getitem__">__getitem__</a>(<a href="#ulong_array">ulong_array</a>&nbsp;self,&nbsp;size_t&nbsp;index)&nbsp;-&gt;&nbsp;unsigned&nbsp;long</tt></dd></dl>
+
+<dl><dt><a name="ulong_array-__init__"><strong>__init__</strong></a>(self, nelements)</dt><dd><tt><a href="#ulong_array-__init__">__init__</a>(<a href="#ulong_array">ulong_array</a>&nbsp;self,&nbsp;size_t&nbsp;nelements)&nbsp;-&gt;&nbsp;<a href="#ulong_array">ulong_array</a></tt></dd></dl>
+
+<dl><dt><a name="ulong_array-__repr__"><strong>__repr__</strong></a> = _swig_repr(self)</dt></dl>
+
+<dl><dt><a name="ulong_array-__setitem__"><strong>__setitem__</strong></a>(self, index, value)</dt><dd><tt><a href="#ulong_array-__setitem__">__setitem__</a>(<a href="#ulong_array">ulong_array</a>&nbsp;self,&nbsp;size_t&nbsp;index,&nbsp;unsigned&nbsp;long&nbsp;value)</tt></dd></dl>
+
+<dl><dt><a name="ulong_array-cast"><strong>cast</strong></a>(self)</dt><dd><tt><a href="#ulong_array-cast">cast</a>(<a href="#ulong_array">ulong_array</a>&nbsp;self)&nbsp;-&gt;&nbsp;unsigned&nbsp;long&nbsp;*</tt></dd></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="ulong_array-__swig_destroy__"><strong>__swig_destroy__</strong></a> = delete_ulong_array(...)</dt><dd><tt>delete_ulong_array(<a href="#ulong_array">ulong_array</a>&nbsp;self)</tt></dd></dl>
+
+<dl><dt><a name="ulong_array-frompointer"><strong>frompointer</strong></a>(t)</dt><dd><tt><a href="#ulong_array-frompointer">frompointer</a>(unsigned&nbsp;long&nbsp;*&nbsp;t)&nbsp;-&gt;&nbsp;<a href="#ulong_array">ulong_array</a></tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>thisown</strong></dt>
+<dd><tt>The&nbsp;membership&nbsp;flag</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-copy_intptr"><strong>copy_intptr</strong></a>(value)</dt><dd><tt><a href="#-copy_intptr">copy_intptr</a>(int&nbsp;value)&nbsp;-&gt;&nbsp;int&nbsp;*</tt></dd></dl>
+ <dl><dt><a name="-data_info_array_getitem"><strong>data_info_array_getitem</strong></a>(ary, index)</dt><dd><tt><a href="#-data_info_array_getitem">data_info_array_getitem</a>(<a href="#data_info">data_info</a>&nbsp;ary,&nbsp;size_t&nbsp;index)&nbsp;-&gt;&nbsp;<a href="#data_info">data_info</a></tt></dd></dl>
+ <dl><dt><a name="-data_info_array_setitem"><strong>data_info_array_setitem</strong></a>(ary, index, value)</dt><dd><tt><a href="#-data_info_array_setitem">data_info_array_setitem</a>(<a href="#data_info">data_info</a>&nbsp;ary,&nbsp;size_t&nbsp;index,&nbsp;<a href="#data_info">data_info</a>&nbsp;value)</tt></dd></dl>
+ <dl><dt><a name="-data_info_list_frompointer"><strong>data_info_list_frompointer</strong></a>(t)</dt><dd><tt><a href="#-data_info_list_frompointer">data_info_list_frompointer</a>(<a href="#data_info">data_info</a>&nbsp;t)&nbsp;-&gt;&nbsp;<a href="#data_info_list">data_info_list</a></tt></dd></dl>
+ <dl><dt><a name="-delete_data_info_array"><strong>delete_data_info_array</strong></a>(ary)</dt><dd><tt><a href="#-delete_data_info_array">delete_data_info_array</a>(<a href="#data_info">data_info</a>&nbsp;ary)</tt></dd></dl>
+ <dl><dt><a name="-delete_intptr"><strong>delete_intptr</strong></a>(obj)</dt><dd><tt><a href="#-delete_intptr">delete_intptr</a>(int&nbsp;*&nbsp;obj)</tt></dd></dl>
+ <dl><dt><a name="-device_info_list_frompointer"><strong>device_info_list_frompointer</strong></a>(t)</dt><dd><tt><a href="#-device_info_list_frompointer">device_info_list_frompointer</a>(<a href="#device_info">device_info</a>&nbsp;t)&nbsp;-&gt;&nbsp;<a href="#device_info_list">device_info_list</a></tt></dd></dl>
+ <dl><dt><a name="-intptr_assign"><strong>intptr_assign</strong></a>(obj, value)</dt><dd><tt><a href="#-intptr_assign">intptr_assign</a>(int&nbsp;*&nbsp;obj,&nbsp;int&nbsp;value)</tt></dd></dl>
+ <dl><dt><a name="-intptr_value"><strong>intptr_value</strong></a>(obj)</dt><dd><tt><a href="#-intptr_value">intptr_value</a>(int&nbsp;*&nbsp;obj)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-new_data_info_array"><strong>new_data_info_array</strong></a>(nelements)</dt><dd><tt><a href="#-new_data_info_array">new_data_info_array</a>(size_t&nbsp;nelements)&nbsp;-&gt;&nbsp;<a href="#data_info">data_info</a></tt></dd></dl>
+ <dl><dt><a name="-new_intptr"><strong>new_intptr</strong></a>()</dt><dd><tt><a href="#-new_intptr">new_intptr</a>()&nbsp;-&gt;&nbsp;int&nbsp;*</tt></dd></dl>
+ <dl><dt><a name="-rmt_reinit_server"><strong>rmt_reinit_server</strong></a>()</dt><dd><tt><a href="#-rmt_reinit_server">rmt_reinit_server</a>()<br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_reinit_server&nbsp;Reinit&nbsp;the&nbsp;server</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_configure"><strong>rmt_server_configure</strong></a>(interface, domain_id)</dt><dd><tt><a href="#-rmt_server_configure">rmt_server_configure</a>(char&nbsp;*&nbsp;interface,&nbsp;int&nbsp;domain_id)&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_server_configure&nbsp;Set&nbsp;the&nbsp;config&nbsp;for&nbsp;RMT&nbsp;server&nbsp;&nbsp;<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+*&nbsp;`interface`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;network&nbsp;interface&nbsp;&nbsp;<br>
+*&nbsp;`domain_id`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;DDS&nbsp;domain&nbsp;ID&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+The&nbsp;error&nbsp;code&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+*&nbsp;`0`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Success&nbsp;&nbsp;<br>
+*&nbsp;`-1`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Something&nbsp;wrong</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_create_device_list"><strong>rmt_server_create_device_list</strong></a>(num)</dt><dd><tt><a href="#-rmt_server_create_device_list">rmt_server_create_device_list</a>(int&nbsp;*&nbsp;num)&nbsp;-&gt;&nbsp;<a href="#device_info">device_info</a><br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_server_create_device_list&nbsp;Create&nbsp;device&nbsp;list&nbsp;RMT&nbsp;server&nbsp;received.&nbsp;&nbsp;<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+*&nbsp;`num`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;How&nbsp;many&nbsp;devices&nbsp;return&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+<a href="#device_info">device_info</a>:&nbsp;Array&nbsp;of&nbsp;device&nbsp;info.</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_deinit"><strong>rmt_server_deinit</strong></a>()</dt><dd><tt><a href="#-rmt_server_deinit">rmt_server_deinit</a>()&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_server_deinit&nbsp;Deinit&nbsp;the&nbsp;RMT&nbsp;library&nbsp;after&nbsp;use.&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+The&nbsp;error&nbsp;code&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+*&nbsp;`0`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Success&nbsp;&nbsp;<br>
+*&nbsp;`-1`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Something&nbsp;wrong</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_free_device_list"><strong>rmt_server_free_device_list</strong></a>(dev)</dt><dd><tt><a href="#-rmt_server_free_device_list">rmt_server_free_device_list</a>(<a href="#device_info">device_info</a>&nbsp;dev)&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_server_free_device_list&nbsp;Free&nbsp;the&nbsp;device&nbsp;list&nbsp;RMT&nbsp;server&nbsp;created.&nbsp;&nbsp;<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+*&nbsp;`dev`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;device&nbsp;list&nbsp;created&nbsp;by&nbsp;rmt_server_create_device_list&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+The&nbsp;error&nbsp;code&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+*&nbsp;`0`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Success&nbsp;&nbsp;<br>
+*&nbsp;`-1`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Something&nbsp;wrong</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_free_info"><strong>rmt_server_free_info</strong></a>(info_list)</dt><dd><tt><a href="#-rmt_server_free_info">rmt_server_free_info</a>(<a href="#data_info">data_info</a>&nbsp;info_list)&nbsp;-&gt;&nbsp;int</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_get_info"><strong>rmt_server_get_info</strong></a>(id_list, id_num, key_list, info_num)</dt><dd><tt><a href="#-rmt_server_get_info">rmt_server_get_info</a>(unsigned&nbsp;long&nbsp;*&nbsp;id_list,&nbsp;int&nbsp;id_num,&nbsp;char&nbsp;*&nbsp;key_list,&nbsp;int&nbsp;*&nbsp;info_num)&nbsp;-&gt;&nbsp;<a href="#data_info">data_info</a><br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_server_get_info&nbsp;Get&nbsp;the&nbsp;information&nbsp;from&nbsp;device.&nbsp;&nbsp;<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+*&nbsp;`id_list`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;unsigned&nbsp;long&nbsp;array&nbsp;&nbsp;<br>
+*&nbsp;`id_num`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;number&nbsp;of&nbsp;id&nbsp;&nbsp;<br>
+*&nbsp;`key_list`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;string&nbsp;of&nbsp;key&nbsp;and&nbsp;each&nbsp;key&nbsp;is&nbsp;splitted&nbsp;with&nbsp;";",&nbsp;for&nbsp;example<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"cpu;ram;..."&nbsp;&nbsp;<br>
+*&nbsp;`info_num`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;number&nbsp;of&nbsp;return&nbsp;<a href="#data_info">data_info</a>&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+<a href="#data_info">data_info</a>:&nbsp;<a href="#data_info">data_info</a>&nbsp;array.&nbsp;value_list&nbsp;is&nbsp;the&nbsp;string&nbsp;of&nbsp;key-value&nbsp;pairs,&nbsp;for<br>
+example&nbsp;"cpu:20;ram:30;...".</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_get_result"><strong>rmt_server_get_result</strong></a>(device_id)</dt><dd><tt><a href="#-rmt_server_get_result">rmt_server_get_result</a>(unsigned&nbsp;long&nbsp;device_id)&nbsp;-&gt;&nbsp;transfer_status<br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_server_get_result&nbsp;Get&nbsp;the&nbsp;result&nbsp;of&nbsp;file&nbsp;transfer&nbsp;by&nbsp;handle&nbsp;ID&nbsp;Note&nbsp;that&nbsp;the<br>
+status&nbsp;of&nbsp;handle_id&nbsp;will&nbsp;be&nbsp;clear&nbsp;when&nbsp;you&nbsp;get&nbsp;the&nbsp;DONE&nbsp;status.&nbsp;&nbsp;<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+*&nbsp;`device_id`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;device&nbsp;ID&nbsp;&nbsp;<br>
+*&nbsp;`result`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;file&nbsp;transfer&nbsp;result&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+transfer_status&nbsp;indicates&nbsp;the&nbsp;file&nbsp;transfer&nbsp;status&nbsp;of&nbsp;device&nbsp;ID.</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_init"><strong>rmt_server_init</strong></a>()</dt><dd><tt><a href="#-rmt_server_init">rmt_server_init</a>()&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_server_init&nbsp;Init&nbsp;RMT&nbsp;server&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+The&nbsp;error&nbsp;code&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+*&nbsp;`0`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Success&nbsp;&nbsp;<br>
+*&nbsp;`-1`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Something&nbsp;wrong</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_recv_file"><strong>rmt_server_recv_file</strong></a>(id, callbackname, filename)</dt><dd><tt><a href="#-rmt_server_recv_file">rmt_server_recv_file</a>(unsigned&nbsp;long&nbsp;id,&nbsp;char&nbsp;*&nbsp;callbackname,&nbsp;char&nbsp;*&nbsp;filename)&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_server_recv_file&nbsp;Get&nbsp;files&nbsp;from&nbsp;agent&nbsp;Note&nbsp;that&nbsp;the&nbsp;file&nbsp;transfer&nbsp;last&nbsp;time<br>
+should&nbsp;be&nbsp;done&nbsp;before&nbsp;you&nbsp;use&nbsp;the&nbsp;function.&nbsp;&nbsp;<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+*&nbsp;`id`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;id&nbsp;you&nbsp;want&nbsp;to&nbsp;get&nbsp;file&nbsp;from&nbsp;&nbsp;<br>
+*&nbsp;`callbackname`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;callback&nbsp;you&nbsp;want&nbsp;to&nbsp;call&nbsp;&nbsp;<br>
+*&nbsp;`filename`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;file&nbsp;you&nbsp;want&nbsp;to&nbsp;receive&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+The&nbsp;error&nbsp;code&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+*&nbsp;`0`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Success&nbsp;&nbsp;<br>
+*&nbsp;`-1`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Something&nbsp;wrong,&nbsp;e.g.&nbsp;the&nbsp;last&nbsp;file&nbsp;transfer&nbsp;is&nbsp;still&nbsp;running</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_send_file"><strong>rmt_server_send_file</strong></a>(id_list, id_num, callbackname, filename, pFile)</dt><dd><tt><a href="#-rmt_server_send_file">rmt_server_send_file</a>(unsigned&nbsp;long&nbsp;*&nbsp;id_list,&nbsp;int&nbsp;id_num,&nbsp;char&nbsp;*&nbsp;callbackname,&nbsp;char&nbsp;*&nbsp;filename,&nbsp;void&nbsp;*&nbsp;pFile)&nbsp;-&gt;&nbsp;int<br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_server_send_file&nbsp;Send&nbsp;files&nbsp;to&nbsp;agent&nbsp;Note&nbsp;that&nbsp;the&nbsp;file&nbsp;transfer&nbsp;last&nbsp;time<br>
+should&nbsp;be&nbsp;done&nbsp;before&nbsp;you&nbsp;use&nbsp;the&nbsp;function.&nbsp;&nbsp;<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+*&nbsp;`id_list`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;unsigned&nbsp;long&nbsp;array&nbsp;&nbsp;<br>
+*&nbsp;`id_num`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;number&nbsp;of&nbsp;id&nbsp;&nbsp;<br>
+*&nbsp;`callbackname`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;callback&nbsp;you&nbsp;want&nbsp;to&nbsp;call&nbsp;&nbsp;<br>
+*&nbsp;`filename`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;file&nbsp;you&nbsp;want&nbsp;to&nbsp;send&nbsp;&nbsp;<br>
+*&nbsp;`pFile`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;content&nbsp;of&nbsp;the&nbsp;file&nbsp;&nbsp;<br>
+*&nbsp;`file_len`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;length&nbsp;of&nbsp;the&nbsp;file&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+The&nbsp;error&nbsp;code&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+*&nbsp;`0`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Success&nbsp;&nbsp;<br>
+*&nbsp;`-1`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Something&nbsp;wrong,&nbsp;e.g.&nbsp;the&nbsp;last&nbsp;file&nbsp;transfer&nbsp;is&nbsp;still&nbsp;running</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_set_info"><strong>rmt_server_set_info</strong></a>(dev_list, dev_num, info_num)</dt><dd><tt><a href="#-rmt_server_set_info">rmt_server_set_info</a>(<a href="#data_info">data_info</a>&nbsp;dev_list,&nbsp;int&nbsp;dev_num,&nbsp;int&nbsp;*&nbsp;info_num)&nbsp;-&gt;&nbsp;<a href="#data_info">data_info</a><br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_server_set_info&nbsp;Set&nbsp;the&nbsp;information&nbsp;to&nbsp;device&nbsp;&nbsp;<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+*&nbsp;`<a href="#data_info">data_info</a>`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="#data_info">data_info</a>&nbsp;array.&nbsp;value_list&nbsp;is&nbsp;the&nbsp;string&nbsp;of&nbsp;key-value&nbsp;pairs,&nbsp;for&nbsp;example<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"hostname:my_name;locate:on;..."&nbsp;&nbsp;<br>
+*&nbsp;`dev_num`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;number&nbsp;of&nbsp;device&nbsp;&nbsp;<br>
+*&nbsp;`info_num`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;number&nbsp;of&nbsp;return&nbsp;<a href="#data_info">data_info</a>&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+<a href="#data_info">data_info</a>:&nbsp;<a href="#data_info">data_info</a>&nbsp;array.&nbsp;value_list&nbsp;is&nbsp;the&nbsp;string&nbsp;of&nbsp;key-value&nbsp;pairs,&nbsp;for<br>
+example&nbsp;"hostname:0;locate:-1;..."</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_set_info_with_same_value"><strong>rmt_server_set_info_with_same_value</strong></a>(id_list, id_num, value_list, info_num)</dt><dd><tt><a href="#-rmt_server_set_info_with_same_value">rmt_server_set_info_with_same_value</a>(unsigned&nbsp;long&nbsp;*&nbsp;id_list,&nbsp;int&nbsp;id_num,&nbsp;char&nbsp;*&nbsp;value_list,&nbsp;int&nbsp;*&nbsp;info_num)&nbsp;-&gt;&nbsp;<a href="#data_info">data_info</a><br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_server_set_info_with_same_value&nbsp;Set&nbsp;the&nbsp;information&nbsp;to&nbsp;device&nbsp;with&nbsp;the&nbsp;same<br>
+value&nbsp;&nbsp;<br>
+&nbsp;<br>
+Parameters<br>
+----------<br>
+*&nbsp;`id_list`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;unsigned&nbsp;long&nbsp;array&nbsp;&nbsp;<br>
+*&nbsp;`id_num`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;number&nbsp;of&nbsp;id&nbsp;&nbsp;<br>
+*&nbsp;`value_list`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;pairs&nbsp;of&nbsp;key&nbsp;and&nbsp;value,&nbsp;for&nbsp;example&nbsp;"hostname:my_name;locate:on;..."&nbsp;&nbsp;<br>
+*&nbsp;`inf_num`&nbsp;:&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;number&nbsp;of&nbsp;return&nbsp;<a href="#data_info">data_info</a>&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+<a href="#data_info">data_info</a>:&nbsp;<a href="#data_info">data_info</a>&nbsp;array.&nbsp;value_list&nbsp;is&nbsp;the&nbsp;string&nbsp;of&nbsp;key-value&nbsp;pairs,&nbsp;for<br>
+example&nbsp;"hostname:0;locate:-1;..."</tt></dd></dl>
+ <dl><dt><a name="-rmt_server_version"><strong>rmt_server_version</strong></a>()</dt><dd><tt><a href="#-rmt_server_version">rmt_server_version</a>()&nbsp;-&gt;&nbsp;char&nbsp;*<br>
+&nbsp;<br>
+&nbsp;<br>
+rmt_server_version&nbsp;Return&nbsp;the&nbsp;version&nbsp;of&nbsp;RMT&nbsp;library&nbsp;&nbsp;<br>
+&nbsp;<br>
+Returns<br>
+-------<br>
+return&nbsp;the&nbsp;library&nbsp;version&nbsp;in&nbsp;string</tt></dd></dl>
+ <dl><dt><a name="-ulong_array_frompointer"><strong>ulong_array_frompointer</strong></a>(t)</dt><dd><tt><a href="#-ulong_array_frompointer">ulong_array_frompointer</a>(unsigned&nbsp;long&nbsp;*&nbsp;t)&nbsp;-&gt;&nbsp;<a href="#ulong_array">ulong_array</a></tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>CONFIG_KEY_STR_LEN</strong> = 4096<br>
+<strong>STATUS_AGENT_ERROR</strong> = 3<br>
+<strong>STATUS_DONE</strong> = 0<br>
+<strong>STATUS_RUNNING</strong> = 1<br>
+<strong>STATUS_SERVER_ERROR</strong> = 2</td></tr></table>
+</body></html>

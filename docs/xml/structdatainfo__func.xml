@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structdatainfo__func" kind="struct" language="C++" prot="public">
+    <compoundname>datainfo_func</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdatainfo__func_1ad7c37e5326628c1d4be8b1cb4879c546" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* datainfo_func::key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="21" column="16" bodyfile="agent/rmt_agent.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdatainfo__func_1a3b9c9c3a804c3e0cff73d1ec9216bada" prot="public" static="no" mutable="no">
+        <type>INFO_FUNC</type>
+        <definition>INFO_FUNC datainfo_func::get_func</definition>
+        <argsstring></argsstring>
+        <name>get_func</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="22" column="15" bodyfile="agent/rmt_agent.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdatainfo__func_1a0a0070ab2d0fc2b772e2cc3ca07c31a1" prot="public" static="no" mutable="no">
+        <type>INFO_FUNC</type>
+        <definition>INFO_FUNC datainfo_func::set_func</definition>
+        <argsstring></argsstring>
+        <name>set_func</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="23" column="15" bodyfile="agent/rmt_agent.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="agent/rmt_agent.h" line="20" column="28" bodyfile="agent/rmt_agent.h" bodystart="20" bodyend="24"/>
+    <listofallmembers>
+      <member refid="structdatainfo__func_1a3b9c9c3a804c3e0cff73d1ec9216bada" prot="public" virt="non-virtual"><scope>datainfo_func</scope><name>get_func</name></member>
+      <member refid="structdatainfo__func_1ad7c37e5326628c1d4be8b1cb4879c546" prot="public" virt="non-virtual"><scope>datainfo_func</scope><name>key</name></member>
+      <member refid="structdatainfo__func_1a0a0070ab2d0fc2b772e2cc3ca07c31a1" prot="public" virt="non-virtual"><scope>datainfo_func</scope><name>set_func</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

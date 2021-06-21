@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct__rmt__server__cfg" kind="struct" language="C++" prot="public">
+    <compoundname>_rmt_server_cfg</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__rmt__server__cfg_1a3e8af48f099050bfe6d18c4ff651d255" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _rmt_server_cfg::net_interface</definition>
+        <argsstring></argsstring>
+        <name>net_interface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="48" column="10" bodyfile="server/rmt_server.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__rmt__server__cfg_1a55c97f8abfd7250da63ab91efbaa87ee" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _rmt_server_cfg::domain_id</definition>
+        <argsstring></argsstring>
+        <name>domain_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="49" column="9" bodyfile="server/rmt_server.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="server/rmt_server.h" line="47" column="30" bodyfile="server/rmt_server.h" bodystart="47" bodyend="50"/>
+    <listofallmembers>
+      <member refid="struct__rmt__server__cfg_1a55c97f8abfd7250da63ab91efbaa87ee" prot="public" virt="non-virtual"><scope>_rmt_server_cfg</scope><name>domain_id</name></member>
+      <member refid="struct__rmt__server__cfg_1a3e8af48f099050bfe6d18c4ff651d255" prot="public" virt="non-virtual"><scope>_rmt_server_cfg</scope><name>net_interface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

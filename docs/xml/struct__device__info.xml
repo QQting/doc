@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct__device__info" kind="struct" language="C++" prot="public">
+    <compoundname>_device_info</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__device__info_1a555fd479b09c1944cb0eff13abc953a9" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long _device_info::deviceID</definition>
+        <argsstring></argsstring>
+        <name>deviceID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="19" column="19" bodyfile="server/rmt_server.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__device__info_1a2d4db0c570da65ad414046809a942162" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _device_info::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="20" column="10" bodyfile="server/rmt_server.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__device__info_1a09d9803973ce5fef2844cfd322a2cd75" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _device_info::host</definition>
+        <argsstring></argsstring>
+        <name>host</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="21" column="10" bodyfile="server/rmt_server.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__device__info_1ab2ac76827ae1105729fcd3b0d12bfc3e" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _device_info::ip</definition>
+        <argsstring></argsstring>
+        <name>ip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="22" column="10" bodyfile="server/rmt_server.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__device__info_1afe8c86d4123b9a9be2c82ce3ef1e1056" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _device_info::mac</definition>
+        <argsstring></argsstring>
+        <name>mac</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="23" column="10" bodyfile="server/rmt_server.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__device__info_1a5a0bcb98ef9dc27f9c565ba2673e942f" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _device_info::rmt_version</definition>
+        <argsstring></argsstring>
+        <name>rmt_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="24" column="10" bodyfile="server/rmt_server.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__device__info_1ad845570080e89ffb92f3a7cff7110860" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _device_info::devinfo</definition>
+        <argsstring></argsstring>
+        <name>devinfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="25" column="10" bodyfile="server/rmt_server.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="server/rmt_server.h" line="18" column="27" bodyfile="server/rmt_server.h" bodystart="18" bodyend="26"/>
+    <listofallmembers>
+      <member refid="struct__device__info_1a555fd479b09c1944cb0eff13abc953a9" prot="public" virt="non-virtual"><scope>_device_info</scope><name>deviceID</name></member>
+      <member refid="struct__device__info_1ad845570080e89ffb92f3a7cff7110860" prot="public" virt="non-virtual"><scope>_device_info</scope><name>devinfo</name></member>
+      <member refid="struct__device__info_1a09d9803973ce5fef2844cfd322a2cd75" prot="public" virt="non-virtual"><scope>_device_info</scope><name>host</name></member>
+      <member refid="struct__device__info_1ab2ac76827ae1105729fcd3b0d12bfc3e" prot="public" virt="non-virtual"><scope>_device_info</scope><name>ip</name></member>
+      <member refid="struct__device__info_1afe8c86d4123b9a9be2c82ce3ef1e1056" prot="public" virt="non-virtual"><scope>_device_info</scope><name>mac</name></member>
+      <member refid="struct__device__info_1a2d4db0c570da65ad414046809a942162" prot="public" virt="non-virtual"><scope>_device_info</scope><name>model</name></member>
+      <member refid="struct__device__info_1a5a0bcb98ef9dc27f9c565ba2673e942f" prot="public" virt="non-virtual"><scope>_device_info</scope><name>rmt_version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

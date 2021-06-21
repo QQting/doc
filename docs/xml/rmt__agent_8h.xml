@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="rmt__agent_8h" kind="file" language="C++">
+    <compoundname>rmt_agent.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+      <node id="1">
+        <label>agent/rmt_agent.h</label>
+        <link refid="rmt__agent_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structdatainfo__func" prot="public">datainfo_func</innerclass>
+    <innerclass refid="structfileinfo__func" prot="public">fileinfo_func</innerclass>
+    <innerclass refid="struct__rmt__agent__cfg" prot="public">_rmt_agent_cfg</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="rmt__agent_8h_1a7b48e3e19865194b72b3a55911ad3105" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* devinfo_func) (char *)</definition>
+        <argsstring>)(char *)</argsstring>
+        <name>devinfo_func</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="17" column="9" bodyfile="agent/rmt_agent.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="rmt__agent_8h_1aaf7b680967ed871f01d0a9234f4eab89" prot="public" static="no">
+        <type>int(*</type>
+        <definition>typedef int(* INFO_FUNC) (char *)</definition>
+        <argsstring>)(char *)</argsstring>
+        <name>INFO_FUNC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="18" column="9" bodyfile="agent/rmt_agent.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="rmt__agent_8h_1ae7e2362cf778bae61770ba45db3c097d" prot="public" static="no">
+        <type>struct <ref refid="structdatainfo__func" kindref="compound">datainfo_func</ref></type>
+        <definition>typedef struct datainfo_func datainfo_func</definition>
+        <argsstring></argsstring>
+        <name>datainfo_func</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="24" column="15"/>
+      </memberdef>
+      <memberdef kind="typedef" id="rmt__agent_8h_1a586b632b6c2188a554eb971b375ce1f0" prot="public" static="no">
+        <type>int(*</type>
+        <definition>typedef int(* FILE_FUNC) (char *, char *, int)</definition>
+        <argsstring>)(char *, char *, int)</argsstring>
+        <name>FILE_FUNC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="26" column="9" bodyfile="agent/rmt_agent.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="rmt__agent_8h_1a229ececdbac95177ee93fe41f2b60d7f" prot="public" static="no">
+        <type>struct <ref refid="structfileinfo__func" kindref="compound">fileinfo_func</ref></type>
+        <definition>typedef struct fileinfo_func fileinfo_func</definition>
+        <argsstring></argsstring>
+        <name>fileinfo_func</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="33" column="15"/>
+      </memberdef>
+      <memberdef kind="typedef" id="rmt__agent_8h_1a2aa20ee321669f72e61bfa0d7c84473f" prot="public" static="no">
+        <type>struct <ref refid="struct__rmt__agent__cfg" kindref="compound">_rmt_agent_cfg</ref></type>
+        <definition>typedef struct _rmt_agent_cfg rmt_agent_cfg</definition>
+        <argsstring></argsstring>
+        <name>rmt_agent_cfg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="41" column="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="rmt__agent_8h_1ae7ffc0439c28ff5f979655e6fa3d37c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int rmt_agent_configure</definition>
+        <argsstring>(rmt_agent_cfg *config)</argsstring>
+        <name>rmt_agent_configure</name>
+        <param>
+          <type><ref refid="struct__rmt__agent__cfg" kindref="compound">rmt_agent_cfg</ref> *</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+<para>rmt_agent_configure Set the config for RMT agent </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">rmt_agent_cfg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The config structure for RMT agent</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The error code </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>-1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Something wrong </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="53" column="5" declfile="agent/rmt_agent.h" declline="53" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__agent_8h_1a4b61921c678b801e0d135b840b8dbbfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int rmt_agent_init</definition>
+        <argsstring>(devinfo_func agent_devinfo_func, datainfo_func *data_func_maps, fileinfo_func *file_func_maps)</argsstring>
+        <name>rmt_agent_init</name>
+        <param>
+          <type>devinfo_func</type>
+          <declname>agent_devinfo_func</declname>
+        </param>
+        <param>
+          <type><ref refid="structdatainfo__func" kindref="compound">datainfo_func</ref> *</type>
+          <declname>data_func_maps</declname>
+        </param>
+        <param>
+          <type><ref refid="structfileinfo__func" kindref="compound">fileinfo_func</ref> *</type>
+          <declname>file_func_maps</declname>
+        </param>
+        <briefdescription>
+<para>rmt_agent_init Init RMT agent </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">search_func</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The callback for getting devinfo </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">func_maps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The function map for getting datainfo </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">file_maps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The function map for getting fileinfo</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The error code </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>-1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Something wrong </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="67" column="5" declfile="agent/rmt_agent.h" declline="67" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__agent_8h_1a6128a088b8a2b0487fadf3e37639c4ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int rmt_agent_running</definition>
+        <argsstring>(void)</argsstring>
+        <name>rmt_agent_running</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>rmt_agent_running Update the device data and receive requests from server Note: the function should always run </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The error code </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>-1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Something wrong </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="78" column="5" declfile="agent/rmt_agent.h" declline="78" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__agent_8h_1ab28263288f89a5cf0fa398020d6902a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int rmt_agent_deinit</definition>
+        <argsstring>(void)</argsstring>
+        <name>rmt_agent_deinit</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>rmt_agent_deinit Release resource of RMT agent </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The error code </para>
+</simplesect>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Success </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>-1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Something wrong </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="88" column="5" declfile="agent/rmt_agent.h" declline="88" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="rmt__agent_8h_1a9f1dc6491b64f75afc52a9c18ad66446" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* rmt_agent_version</definition>
+        <argsstring>(void)</argsstring>
+        <name>rmt_agent_version</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>rmt_agent_version Get the current version of RMT agent library </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The version of RMT agent library </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="96" column="6" declfile="agent/rmt_agent.h" declline="96" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>RMT agent library API. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_RMT_AGENT_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_RMT_AGENT_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>*INDENT-OFF*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>*INDENT-ON*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*devinfo_func)(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(*INFO_FUNC)(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="structdatainfo__func" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structdatainfo__func" kindref="compound">datainfo_func</ref><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>INFO_FUNC<sp/>get_func;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>INFO_FUNC<sp/>set_func;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}<sp/><ref refid="structdatainfo__func" kindref="compound">datainfo_func</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(*FILE_FUNC)(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/>int);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="structfileinfo__func" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structfileinfo__func" kindref="compound">fileinfo_func</ref><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*callbackname;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE_FUNC<sp/>import_func;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE_FUNC<sp/>export_func;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}<sp/><ref refid="structfileinfo__func" kindref="compound">fileinfo_func</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="struct__rmt__agent__cfg" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__rmt__agent__cfg" kindref="compound">_rmt_agent_cfg</ref><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*net_interface;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>NULL<sp/>for<sp/>default<sp/>interface<sp/>chosen<sp/>by<sp/>RMT<sp/>agent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>device_id;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>0<sp/>for<sp/>default<sp/>device<sp/>ID<sp/>generated<sp/>from<sp/>MAC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>domain_id;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>0<sp/>for<sp/>default<sp/>domain<sp/>ID<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>datainfo_val_size;<sp/></highlight><highlight class="comment">//<sp/>0<sp/>for<sp/>default<sp/>size<sp/>256</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>devinfo_size;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>0<sp/>for<sp/>default<sp/>size<sp/>1024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}<sp/><ref refid="struct__rmt__agent__cfg" kindref="compound">rmt_agent_cfg</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rmt__agent_8h_1ae7ffc0439c28ff5f979655e6fa3d37c0" kindref="member">rmt_agent_configure</ref>(<ref refid="struct__rmt__agent__cfg" kindref="compound">rmt_agent_cfg</ref><sp/>*config);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rmt__agent_8h_1a4b61921c678b801e0d135b840b8dbbfb" kindref="member">rmt_agent_init</ref>(devinfo_func<sp/>agent_devinfo_func,<sp/><ref refid="structdatainfo__func" kindref="compound">datainfo_func</ref><sp/>*data_func_maps,<sp/><ref refid="structfileinfo__func" kindref="compound">fileinfo_func</ref><sp/>*file_func_maps);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rmt__agent_8h_1a6128a088b8a2b0487fadf3e37639c4ac" kindref="member">rmt_agent_running</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="rmt__agent_8h_1ab28263288f89a5cf0fa398020d6902a7" kindref="member">rmt_agent_deinit</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="rmt__agent_8h_1a9f1dc6491b64f75afc52a9c18ad66446" kindref="member">rmt_agent_version</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>*INDENT-OFF*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>extern<sp/>&quot;C&quot;<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>*INDENT-ON*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*_RMT_AGENT_*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="agent/rmt_agent.h"/>
+  </compounddef>
+</doxygen>

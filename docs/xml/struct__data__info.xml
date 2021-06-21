@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct__data__info" kind="struct" language="C++" prot="public">
+    <compoundname>_data_info</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__data__info_1a59499b42536900460eb16c1ed77000c8" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long _data_info::deviceID</definition>
+        <argsstring></argsstring>
+        <name>deviceID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="30" column="19" bodyfile="server/rmt_server.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__data__info_1aaa1a0d0e01664b1686f57aa8b7b78144" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _data_info::value_list[CONFIG_KEY_STR_LEN+1]</definition>
+        <argsstring>[CONFIG_KEY_STR_LEN+1]</argsstring>
+        <name>value_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="server/rmt_server.h" line="31" column="10" bodyfile="server/rmt_server.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="server/rmt_server.h" line="29" column="25" bodyfile="server/rmt_server.h" bodystart="29" bodyend="32"/>
+    <listofallmembers>
+      <member refid="struct__data__info_1a59499b42536900460eb16c1ed77000c8" prot="public" virt="non-virtual"><scope>_data_info</scope><name>deviceID</name></member>
+      <member refid="struct__data__info_1aaa1a0d0e01664b1686f57aa8b7b78144" prot="public" virt="non-virtual"><scope>_data_info</scope><name>value_list</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structfileinfo__func" kind="struct" language="C++" prot="public">
+    <compoundname>fileinfo_func</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structfileinfo__func_1aa257b34cbe5090c99928bc1f766d1ad7" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* fileinfo_func::callbackname</definition>
+        <argsstring></argsstring>
+        <name>callbackname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="29" column="16" bodyfile="agent/rmt_agent.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfileinfo__func_1a31b1b5a6028a089b29e07d5ee7ce15ad" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* fileinfo_func::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="30" column="16" bodyfile="agent/rmt_agent.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfileinfo__func_1a71ed37b1593f7c2d12dd2a32ab82d09e" prot="public" static="no" mutable="no">
+        <type>FILE_FUNC</type>
+        <definition>FILE_FUNC fileinfo_func::import_func</definition>
+        <argsstring></argsstring>
+        <name>import_func</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="31" column="15" bodyfile="agent/rmt_agent.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfileinfo__func_1ac30dd3a81c09e546b81b044ce30f5b54" prot="public" static="no" mutable="no">
+        <type>FILE_FUNC</type>
+        <definition>FILE_FUNC fileinfo_func::export_func</definition>
+        <argsstring></argsstring>
+        <name>export_func</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="agent/rmt_agent.h" line="32" column="15" bodyfile="agent/rmt_agent.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="agent/rmt_agent.h" line="28" column="28" bodyfile="agent/rmt_agent.h" bodystart="28" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structfileinfo__func_1aa257b34cbe5090c99928bc1f766d1ad7" prot="public" virt="non-virtual"><scope>fileinfo_func</scope><name>callbackname</name></member>
+      <member refid="structfileinfo__func_1ac30dd3a81c09e546b81b044ce30f5b54" prot="public" virt="non-virtual"><scope>fileinfo_func</scope><name>export_func</name></member>
+      <member refid="structfileinfo__func_1a71ed37b1593f7c2d12dd2a32ab82d09e" prot="public" virt="non-virtual"><scope>fileinfo_func</scope><name>import_func</name></member>
+      <member refid="structfileinfo__func_1a31b1b5a6028a089b29e07d5ee7ce15ad" prot="public" virt="non-virtual"><scope>fileinfo_func</scope><name>path</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
